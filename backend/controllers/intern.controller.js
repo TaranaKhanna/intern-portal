@@ -32,9 +32,7 @@ const getInternData = async (req, res) => {
 const getLeaderBoard = async (req, res) => {
     try {
         const leaderBoard = await Intern.find({}).sort({ donations: -1})
-        console.log("leaderboard: ", leaderBoard);
         
-
         return res
         .status(200).json({
             success: true,
