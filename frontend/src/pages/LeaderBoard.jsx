@@ -38,7 +38,7 @@ const Leaderboard = () => {
       </span>
     
     <div className="min-h-screen bg-gradient-to-b from-purple-100 to-blue-100 flex flex-col items-center py-12 px-4">
-      <h1 className="text-3xl font-bold text-gray-800 mb-6">🏆 Leaderboard</h1>
+      <h1 className="text-3xl font-bold text-gray-800 mb-12">🏆 Leaderboard</h1>
 
       {loading ? (
         <p className="text-gray-700">Loading...</p>

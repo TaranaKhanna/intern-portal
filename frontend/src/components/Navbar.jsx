@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom"
 const Navbar = () => {
   const navigate = useNavigate();
   return (
-    <div className='flex justify-between top-0 py-6 px-8 bg-gray-100 border border-gray-300'>
+    <div className='flex justify-between top-0 py-6 px-8 bg-gray-100 border border-gray-300 fixed left-0 w-full shadow-md'>
 
         <span className='text-xl font-bold bg-gradient-to-r from-cyan-600 to-purple-700 bg-clip-text text-transparent cursor-pointer'>InternPortal</span>
 
